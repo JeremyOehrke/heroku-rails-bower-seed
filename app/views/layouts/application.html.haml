@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Personal Styles Inventory
+    = stylesheet_link_tag 'application', media: 'all'
+    = csrf_meta_tags
+  %body
+    = render partial:  "navigation"
+    = render partial: "flashes"
+    = yield
+    = render partial: "footer"
+  = javascript_include_tag 'application'

@@ -1,0 +1,26 @@
+{
+  "name": "psi120-web-domain",
+  "version": "0.0.0",
+  "authors": [
+    "Jeremy Oehrke <jco5ff@gmail.com>"
+  ],
+  "description": "PSI 120 Web Frontend",
+  "license": "Copyrighted",
+  "homepage": "personalstyles.org",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/assets/components",
+    "test",
+    "tests"
+  ],
+  "dependencies":{
+    "bootstrap":"3.3.6",
+    "jquery-ujs": "*",
+    "normalize-css": "latest",
+    "font-awesome":"~4.5.0",
+    "fafnur-bxslider": "~4.2.5",
+    "jquery-validation":"1.14.0"
+  }
+}

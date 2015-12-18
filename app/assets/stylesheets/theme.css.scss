@@ -1,0 +1,99 @@
+$primary-color: #3759A8;
+$primary-color-light: #7F98D3;
+$primary-desaturated: #DBE4F9;
+$highlight: #F58224;
+$highlight-light: #FFB577;
+$text-color: #333333;
+
+
+.img-responsive {
+  max-height:35px;
+  margin-top: -7px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 75px;
+  margin: 0 0 225px; /* bottom = footer height */
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  //background-image: linear-gradient($highlight, $highlight-light);
+}
+
+.footer-logo{
+  background-color: $primary-desaturated;
+  width: 100%;
+}
+
+.footer-menu{
+  padding-top: 5px;
+  width:100%;
+  background-image: linear-gradient($highlight, $highlight-light);
+}
+
+.footer-image{
+  max-height:150px;
+  max-width: 100%;
+}
+
+.navbar-fixed-bottom{
+  background-color: transparent;
+}
+
+.btn-primary{
+  background-color: $primary-color;
+  border-right-color: $highlight;
+  border-right-style: solid;
+  border-right-width: 5px;
+}
+
+.btn-primary:hover{
+  border-right-color: $highlight;
+}
+
+.navbar .brand, .navbar .nav > li > a:hover {
+  background-color: $primary-color-light;
+}
+
+.navbar .brand, .navbar .nav > li > a {
+  background-color: $primary-desaturated;
+  color: $text-color;
+}
+
+.navbar-fixed-top{
+  background-color: $primary-desaturated;
+}
+
+.jumbotron{
+  background-color: $primary-desaturated;
+}
+
+.navbar-fixed-top .navbar-toggle .icon-bar {
+  background-color: $highlight;
+}
+
+.navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+  background-color: $primary-color;
+}
+
+blockquote{
+  border-left-color: $highlight;
+}
+
+
+
+//Form Error styling
+.error{
+  color:#a94442;
+}
